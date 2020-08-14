@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/ico">
+        <file>ico/type.png</file>
+        <file>ico/add_goods.png</file>
+        <file>ico/mgr_goods.png</file>
+    </qresource>
+</RCC>

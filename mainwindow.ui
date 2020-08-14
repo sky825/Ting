@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>warehouse</string>
+  </property>
+  <widget class="QWidget" name="workspace">
+   <layout class="QHBoxLayout" name="horizontalLayout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <action name="action_mgr_goods">
+   <property name="text">
+    <string>库存管理</string>
+   </property>
+  </action>
+  <action name="action_add_goods">
+   <property name="text">
+    <string>添加新商品</string>
+   </property>
+   <property name="toolTip">
+    <string>添加新商品</string>
+   </property>
+  </action>
+  <action name="action_add_kind">
+   <property name="text">
+    <string>添加新的物品类型</string>
+   </property>
+   <property name="toolTip">
+    <string>添加新的物品类型</string>
+   </property>
+  </action>
+  <action name="action_store_mgr">
+   <property name="text">
+    <string>管理</string>
+   </property>
+   <property name="toolTip">
+    <string>仓库管理</string>
+   </property>
+  </action>
+  <action name="action_goods_info">
+   <property name="text">
+    <string>物品信息</string>
+   </property>
+   <property name="toolTip">
+    <string>物品信息</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
